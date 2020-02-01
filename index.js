@@ -73,6 +73,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+      <p> By: Sim Gill </p>
         <button onClick={() => this.add()}> Add  a Progress Bar </button>
         {this.state.bars.map((bar, index) => {
           return (
