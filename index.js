@@ -76,10 +76,10 @@ class App extends React.Component {
           return (
             <LinearProgress
               key={index}
-              style={{ margin: "40px" ,height:'10px'}}
+              style={{ margin: "40px" ,height:'10px',color:'#0F7E20'}}
               variant="determinate"
               value={bar.percent}
-              color="secondary"
+              
             />
           );
         })}
