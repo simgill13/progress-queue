@@ -3,7 +3,9 @@ import { render } from "react-dom";
 import Hello from "./Hello";
 import "./style.css";
 import LinearProgress from "@material-ui/core/LinearProgress";
+import { withStyles } from '@material-ui/core/styles';
 import { head } from "lodash";
+
 
 
 class App extends React.Component {
