@@ -71,7 +71,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <button onClick={() => this.add()}> add progress bar </button>
+        <button onClick={() => this.add()}> Add  a Progress Bar </button>
         {this.state.bars.map((bar, index) => {
           return (
             <LinearProgress
