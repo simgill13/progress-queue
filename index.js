@@ -53,7 +53,7 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    this.interval = setInterval(() => this.checkQueue(), 2000);
+    this.interval = setInterval(() => this.checkQueue(), 700);
   }
 
   add = () => {
