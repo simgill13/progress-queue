@@ -23,7 +23,7 @@ class App extends React.Component {
     const firstInQueue = head(this.state.queue);
     if (firstInQueue) {
       const updatedObj = firstInQueue
-      updatedObj.percent = updatedObj.percent + 25;
+      updatedObj.percent = updatedObj.percent + 5;
       let sim
       let index = this.state.bars.map((element, idx) => {
         if (element.id === firstInQueue.id) {
@@ -53,7 +53,7 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    this.interval = setInterval(() => this.checkQueue(), 700);
+    this.interval = setInterval(() => this.checkQueue(), 300);
   }
 
   add = () => {
